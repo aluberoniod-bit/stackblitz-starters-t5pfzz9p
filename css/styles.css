@@ -152,3 +152,20 @@ h1 {
   font-weight: bold;
   font-size: 1.5rem;
 }
+
+.multimedia{
+  width: 800px;
+  background-color: #aaa;
+}
+.multimedia video{
+  width:600px;
+}
+
+/*estadios*/
+#estadosunidos, #estadosunidos tr, #estadosunidos td, #estadosunidos th{
+  border: solid coral 3px;
+  border-collapse: collapse;
+},
+#eeuuimg{
+  width: 200px;
+}
