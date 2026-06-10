@@ -162,10 +162,26 @@ h1 {
 }
 
 /*estadios*/
-#estadosunidos, #estadosunidos tr, #estadosunidos td, #estadosunidos th{
+#estadosunidos, #estadosunidos tr, #estadosunidos td, #estadosunidos th {
   border: solid coral 3px;
   border-collapse: collapse;
-},
-#eeuuimg{
+}
+#estadosunidos img{
+  width: 200px;
+}
+
+#canada, #canada tr, #canada td, #canada th {
+  border: solid coral 3px;
+  border-collapse: collapse;
+}
+#canada img{
+  width: 200px;
+}
+
+#mexico, #mexico tr, #mexico td, #mexico th {
+  border: solid coral 3px;
+  border-collapse: collapse;
+}
+#mexico img{
   width: 200px;
 }
