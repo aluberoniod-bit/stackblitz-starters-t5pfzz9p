@@ -110,7 +110,7 @@ table, td, th{
 
 
 /*inicio del footer*/
- #footer {
+footer {
   background-color: #000;
   color: #d4d4d4;
   display: flex;
