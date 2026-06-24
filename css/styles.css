@@ -193,7 +193,7 @@ h1 {
 display: grid;
 grid-template-columns: 1fr 3fr;/*25% para continente, 75% para paises*/
 border: 2px solid #000;
-width: 100px;
+width: 100%;
 }
 /*Columna Izquierda: Continente ocupará todo el alto disponible automáticamente*/
 .continente {
