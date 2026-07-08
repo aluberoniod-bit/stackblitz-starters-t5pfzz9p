@@ -26,7 +26,42 @@
  <a href="entradas.html" class="activo">Entradas</a>
     </nav>
     <main>
-      <h1>Home page</h1>
+      <h2>Encuesta de datos de las entradas</h2>
+      <p>Ingrese sus datos para realizar la reserva de la entrada</p>
+      <section>
+        <div id="formulario">
+          <h2>Tus datos</h2>
+          <form action="#">
+            <label for="formnombre">Nombre</label>
+            <imput type="text" name="formnombre" id="formnombre" maxlegth="30" minheight="5" required placeholder="ingrese su nombre">
+
+              <label for="formapellido">Apellido</label>
+            <imput type="text" name="formapellido" id="formapellido" maxlenght="30" minheight="3" required placeholder="Ingrese su apellido">
+              
+              <input id="formedad" required type="number" placeholder="Ingrese tu edad">
+
+              <input id="formclave" required type="password" placeholder="Ingrese la palabra secreta">
+
+              <input id="email" placeholder="correopp@dom.com">
+            <imput type="radio" id="formf" name="formsexo" value="Femenino">
+             <label for="fem">Femenino</label>
+             <imput type="radio" id="formf" name="formsexo" value="Masculino">
+              <label for="mas">Femenino</label>
+              <imput type="radio" id="formf" name="formsexo" value="Nodecirlo">
+                <label for="nod">No informo</label><br> <br>
+
+                <label for="ubicacion">Seleccione una ibicación</label><br> 
+                <select name="ubicacion" id="formubi">
+                <option value="plateaa">Platea Alta</option>
+                <option value="plateam">Platea Media</option>
+                <option value="plateab">Platea Baja</option>
+                <option value="popular">Popular</option>
+                <option value="palco">Palco</option>
+              </select>
+
+
+              <imput type="submit">
+            </section>
     </main>
     <footer>
       <div id="colegio">
